@@ -1,0 +1,518 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3A16AD152003DABB00DACF82 /* TestView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A16AD142003DABB00DACF82 /* TestView.m */; };
+		3A2CB6722003D22100BFAA83 /* FTFakeTouch.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A2CB6712003D22100BFAA83 /* FTFakeTouch.m */; };
+		3A2CB6732003D22100BFAA83 /* FTFakeTouch.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3A2CB6702003D22100BFAA83 /* FTFakeTouch.h */; };
+		3A2CB67F2003D24100BFAA83 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A2CB67E2003D24100BFAA83 /* AppDelegate.m */; };
+		3A2CB6822003D24100BFAA83 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A2CB6812003D24100BFAA83 /* ViewController.m */; };
+		3A2CB6852003D24100BFAA83 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A2CB6832003D24100BFAA83 /* Main.storyboard */; };
+		3A2CB6872003D24100BFAA83 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A2CB6862003D24100BFAA83 /* Assets.xcassets */; };
+		3A2CB68A2003D24100BFAA83 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A2CB6882003D24100BFAA83 /* LaunchScreen.storyboard */; };
+		3A2CB68D2003D24100BFAA83 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A2CB68C2003D24100BFAA83 /* main.m */; };
+		3A2CB69C2003D2D700BFAA83 /* IOHIDEvent+KIF.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A2CB6952003D2D700BFAA83 /* IOHIDEvent+KIF.m */; };
+		3A2CB69D2003D2D700BFAA83 /* UIEvent+KIFAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A2CB6982003D2D700BFAA83 /* UIEvent+KIFAdditions.m */; };
+		3A2CB69E2003D2D700BFAA83 /* UITouch-KIFAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A2CB69A2003D2D700BFAA83 /* UITouch-KIFAdditions.m */; };
+		3A2CB6A32003D3C400BFAA83 /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A2CB6922003D2D700BFAA83 /* IOKit.framework */; };
+		3A2CB6A62003D3CC00BFAA83 /* FTFakeTouch.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A2CB66E2003D22100BFAA83 /* FTFakeTouch.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3A2CB6A42003D3C900BFAA83 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3A2CB6222003D18100BFAA83 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3A2CB66D2003D22100BFAA83;
+			remoteInfo = FTFakeTouch;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		3A2CB66C2003D22100BFAA83 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				3A2CB6732003D22100BFAA83 /* FTFakeTouch.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		3A16AD132003DABB00DACF82 /* TestView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestView.h; sourceTree = "<group>"; };
+		3A16AD142003DABB00DACF82 /* TestView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestView.m; sourceTree = "<group>"; };
+		3A2CB66E2003D22100BFAA83 /* FTFakeTouch.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = FTFakeTouch.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A2CB6702003D22100BFAA83 /* FTFakeTouch.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FTFakeTouch.h; sourceTree = "<group>"; };
+		3A2CB6712003D22100BFAA83 /* FTFakeTouch.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FTFakeTouch.m; sourceTree = "<group>"; };
+		3A2CB67B2003D24100BFAA83 /* FTFakeTouch_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FTFakeTouch_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A2CB67D2003D24100BFAA83 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3A2CB67E2003D24100BFAA83 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3A2CB6802003D24100BFAA83 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3A2CB6812003D24100BFAA83 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3A2CB6842003D24100BFAA83 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3A2CB6862003D24100BFAA83 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3A2CB6892003D24100BFAA83 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3A2CB68B2003D24100BFAA83 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3A2CB68C2003D24100BFAA83 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3A2CB6922003D2D700BFAA83 /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = IOKit.framework; sourceTree = "<group>"; };
+		3A2CB6942003D2D700BFAA83 /* IOHIDEvent+KIF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "IOHIDEvent+KIF.h"; sourceTree = "<group>"; };
+		3A2CB6952003D2D700BFAA83 /* IOHIDEvent+KIF.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "IOHIDEvent+KIF.m"; sourceTree = "<group>"; };
+		3A2CB6962003D2D700BFAA83 /* LoadableCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoadableCategory.h; sourceTree = "<group>"; };
+		3A2CB6972003D2D700BFAA83 /* UIEvent+KIFAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIEvent+KIFAdditions.h"; sourceTree = "<group>"; };
+		3A2CB6982003D2D700BFAA83 /* UIEvent+KIFAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIEvent+KIFAdditions.m"; sourceTree = "<group>"; };
+		3A2CB6992003D2D700BFAA83 /* UITouch-KIFAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITouch-KIFAdditions.h"; sourceTree = "<group>"; };
+		3A2CB69A2003D2D700BFAA83 /* UITouch-KIFAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITouch-KIFAdditions.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3A2CB66B2003D22100BFAA83 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A2CB6782003D24100BFAA83 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A2CB6A62003D3CC00BFAA83 /* FTFakeTouch.a in Frameworks */,
+				3A2CB6A32003D3C400BFAA83 /* IOKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3A2CB6212003D18100BFAA83 = {
+			isa = PBXGroup;
+			children = (
+				3A2CB66F2003D22100BFAA83 /* FTFakeTouch */,
+				3A2CB67C2003D24100BFAA83 /* FTFakeTouch_Example */,
+				3A2CB62B2003D18100BFAA83 /* Products */,
+				3A2CB6A22003D3C400BFAA83 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3A2CB62B2003D18100BFAA83 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3A2CB66E2003D22100BFAA83 /* FTFakeTouch.a */,
+				3A2CB67B2003D24100BFAA83 /* FTFakeTouch_Example.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3A2CB66F2003D22100BFAA83 /* FTFakeTouch */ = {
+			isa = PBXGroup;
+			children = (
+				3A2CB6702003D22100BFAA83 /* FTFakeTouch.h */,
+				3A2CB6712003D22100BFAA83 /* FTFakeTouch.m */,
+				3A2CB6912003D2D700BFAA83 /* external */,
+			);
+			path = FTFakeTouch;
+			sourceTree = "<group>";
+		};
+		3A2CB67C2003D24100BFAA83 /* FTFakeTouch_Example */ = {
+			isa = PBXGroup;
+			children = (
+				3A2CB67D2003D24100BFAA83 /* AppDelegate.h */,
+				3A2CB67E2003D24100BFAA83 /* AppDelegate.m */,
+				3A2CB6802003D24100BFAA83 /* ViewController.h */,
+				3A2CB6812003D24100BFAA83 /* ViewController.m */,
+				3A16AD132003DABB00DACF82 /* TestView.h */,
+				3A16AD142003DABB00DACF82 /* TestView.m */,
+				3A2CB6832003D24100BFAA83 /* Main.storyboard */,
+				3A2CB6862003D24100BFAA83 /* Assets.xcassets */,
+				3A2CB6882003D24100BFAA83 /* LaunchScreen.storyboard */,
+				3A2CB68B2003D24100BFAA83 /* Info.plist */,
+				3A2CB68C2003D24100BFAA83 /* main.m */,
+			);
+			path = FTFakeTouch_Example;
+			sourceTree = "<group>";
+		};
+		3A2CB6912003D2D700BFAA83 /* external */ = {
+			isa = PBXGroup;
+			children = (
+				3A2CB6922003D2D700BFAA83 /* IOKit.framework */,
+				3A2CB6932003D2D700BFAA83 /* KIF_addition */,
+			);
+			path = external;
+			sourceTree = "<group>";
+		};
+		3A2CB6932003D2D700BFAA83 /* KIF_addition */ = {
+			isa = PBXGroup;
+			children = (
+				3A2CB6942003D2D700BFAA83 /* IOHIDEvent+KIF.h */,
+				3A2CB6952003D2D700BFAA83 /* IOHIDEvent+KIF.m */,
+				3A2CB6962003D2D700BFAA83 /* LoadableCategory.h */,
+				3A2CB6972003D2D700BFAA83 /* UIEvent+KIFAdditions.h */,
+				3A2CB6982003D2D700BFAA83 /* UIEvent+KIFAdditions.m */,
+				3A2CB6992003D2D700BFAA83 /* UITouch-KIFAdditions.h */,
+				3A2CB69A2003D2D700BFAA83 /* UITouch-KIFAdditions.m */,
+			);
+			path = KIF_addition;
+			sourceTree = "<group>";
+		};
+		3A2CB6A22003D3C400BFAA83 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3A2CB66D2003D22100BFAA83 /* FTFakeTouch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3A2CB6742003D22100BFAA83 /* Build configuration list for PBXNativeTarget "FTFakeTouch" */;
+			buildPhases = (
+				3A2CB66A2003D22100BFAA83 /* Sources */,
+				3A2CB66B2003D22100BFAA83 /* Frameworks */,
+				3A2CB66C2003D22100BFAA83 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FTFakeTouch;
+			productName = FTFakeTouch;
+			productReference = 3A2CB66E2003D22100BFAA83 /* FTFakeTouch.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		3A2CB67A2003D24100BFAA83 /* FTFakeTouch_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3A2CB68E2003D24100BFAA83 /* Build configuration list for PBXNativeTarget "FTFakeTouch_Example" */;
+			buildPhases = (
+				3A2CB6772003D24100BFAA83 /* Sources */,
+				3A2CB6782003D24100BFAA83 /* Frameworks */,
+				3A2CB6792003D24100BFAA83 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3A2CB6A52003D3C900BFAA83 /* PBXTargetDependency */,
+			);
+			name = FTFakeTouch_Example;
+			productName = FTFakeTouch_Example;
+			productReference = 3A2CB67B2003D24100BFAA83 /* FTFakeTouch_Example.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3A2CB6222003D18100BFAA83 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = devliubo;
+				TargetAttributes = {
+					3A2CB66D2003D22100BFAA83 = {
+						CreatedOnToolsVersion = 9.1;
+					};
+					3A2CB67A2003D24100BFAA83 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = 3A2CB6252003D18100BFAA83 /* Build configuration list for PBXProject "FTFakeTouch" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3A2CB6212003D18100BFAA83;
+			productRefGroup = 3A2CB62B2003D18100BFAA83 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3A2CB66D2003D22100BFAA83 /* FTFakeTouch */,
+				3A2CB67A2003D24100BFAA83 /* FTFakeTouch_Example */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3A2CB6792003D24100BFAA83 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A2CB68A2003D24100BFAA83 /* LaunchScreen.storyboard in Resources */,
+				3A2CB6872003D24100BFAA83 /* Assets.xcassets in Resources */,
+				3A2CB6852003D24100BFAA83 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3A2CB66A2003D22100BFAA83 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A2CB69E2003D2D700BFAA83 /* UITouch-KIFAdditions.m in Sources */,
+				3A2CB69D2003D2D700BFAA83 /* UIEvent+KIFAdditions.m in Sources */,
+				3A2CB6722003D22100BFAA83 /* FTFakeTouch.m in Sources */,
+				3A2CB69C2003D2D700BFAA83 /* IOHIDEvent+KIF.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A2CB6772003D24100BFAA83 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A16AD152003DABB00DACF82 /* TestView.m in Sources */,
+				3A2CB6822003D24100BFAA83 /* ViewController.m in Sources */,
+				3A2CB68D2003D24100BFAA83 /* main.m in Sources */,
+				3A2CB67F2003D24100BFAA83 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3A2CB6A52003D3C900BFAA83 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3A2CB66D2003D22100BFAA83 /* FTFakeTouch */;
+			targetProxy = 3A2CB6A42003D3C900BFAA83 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3A2CB6832003D24100BFAA83 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3A2CB6842003D24100BFAA83 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3A2CB6882003D24100BFAA83 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3A2CB6892003D24100BFAA83 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3A2CB63E2003D18100BFAA83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3A2CB63F2003D18100BFAA83 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3A2CB6752003D22100BFAA83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				EXECUTABLE_PREFIX = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/FTFakeTouch/external",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3A2CB6762003D22100BFAA83 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				EXECUTABLE_PREFIX = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/FTFakeTouch/external",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				STRIP_STYLE = "non-global";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3A2CB68F2003D24100BFAA83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/FTFakeTouch/external",
+				);
+				INFOPLIST_FILE = FTFakeTouch_Example/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.devliubo.FTFakeTouch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3A2CB6902003D24100BFAA83 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/FTFakeTouch/external",
+				);
+				INFOPLIST_FILE = FTFakeTouch_Example/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.devliubo.FTFakeTouch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3A2CB6252003D18100BFAA83 /* Build configuration list for PBXProject "FTFakeTouch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A2CB63E2003D18100BFAA83 /* Debug */,
+				3A2CB63F2003D18100BFAA83 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3A2CB6742003D22100BFAA83 /* Build configuration list for PBXNativeTarget "FTFakeTouch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A2CB6752003D22100BFAA83 /* Debug */,
+				3A2CB6762003D22100BFAA83 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3A2CB68E2003D24100BFAA83 /* Build configuration list for PBXNativeTarget "FTFakeTouch_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A2CB68F2003D24100BFAA83 /* Debug */,
+				3A2CB6902003D24100BFAA83 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3A2CB6222003D18100BFAA83 /* Project object */;
+}
